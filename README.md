@@ -8,27 +8,27 @@ Lanyon-Hugo is a theme designed for blogging. While Hugo is flexible enough to t
 
 ## Usage
 
-To begin authoring content, all you have to do is clone this repository and start writing Markdown files in `content/post`. Front matter for Hugo can be written in JSON, YAML or TOML. I am using JSON out of preference, but it's your content - use whatever language you want. Two example posts are already provided (lifted from the parent Lanyon, with links fixed for Hugo) as an example of the front matter you need.
+To begin authoring content, all you have to do is clone this repository and start writing Markdown files in [`content/post`](content/post). Front matter for Hugo can be written in JSON, YAML or TOML. I am using JSON out of preference, but it's your content - use whatever language you want. Two example posts are already provided (lifted from the parent Lanyon, with links fixed for Hugo) as an example of the front matter you need.
 
 Note for Jekyll users: Jekyll parses the date out of your post's title, but Hugo does not. You must specify a date in the front matter. I specify the permalinks to look like Jekyll's in `config.json`, so if you set the date correctly, the permalinks will also look correct.
 
-Hugo's universal config file is `config.json` (or YAML, or TOML). You can change the base URL of your site, the title, and the tagline from this file. The link to your GitHub repository (for whatever the site represents, say a dev blog, or a personal GitHub Page) can also be changed here. If you are familiar with Hugo, you already know that you can add more parameters to the `params` object to introduce more variables.
+Hugo's universal config file is [`config.json`](config.json) (or YAML, or TOML). You can change the base URL of your site, the title, and the tagline from this file. The link to your GitHub repository (for whatever the site represents, say a dev blog, or a personal GitHub Page) can also be changed here. If you are familiar with Hugo, you already know that you can add more parameters to the `params` object to introduce more variables.
 
 ### Fixed Pages
 
 The original Lanyon had a layout for "pages", fixed content that didn't have a date. Lanyon-Hugo retains this concept, and refers to these pages as "fixed" (that's the content type, if you're familiar with Hugo concepts). Fixed pages will not display a date, only a title, and they will not be listed on the homepage of your site. Pages such as About (an example `about.md` has been lifted from the parent Lanyon) should generally be fixed.
 
-You can alter the content of the custom 404 via `fixed/404.md`. This is useful if you want a custom 404 for your GitHub Page.
+You can alter the content of the custom 404 via [`fixed/404.md`](content/fixed/404.md). This is useful if you want a custom 404 for your GitHub Page.
 
 ### Sidebar Links
 
-To indicate that a given piece of content should be linked in the sidebar, add a key `sidebar` to the front matter, and set it to `true`. See `about.md` for an example of this. Sidebar links currently appear in an arbitrary order; this will be improved in the future. You can pin content to the sidebar regardless of whether it is a post, or if it is fixed.
+To indicate that a given piece of content should be linked in the sidebar, add a key `sidebar` to the front matter, and set it to `true`. See [`about.md`](content/fixed/about.md) for an example of this. Sidebar links currently appear in an arbitrary order; this will be improved in the future. You can pin content to the sidebar regardless of whether it is a post, or if it is fixed.
 
 Note for Jekyll users: In the original Lanyon, any content that had the `page` layout would be added to the sidebar. However, in Lanyon-Hugo, content with the `fixed` type will not be added to the sidebar automatically. You must specify the `sidebar` flag in the front matter.
 
 ### Look and Feel
 
-The CSS from the original Lanyon is unchanged, and you can find it in `static/css`. Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here.
+The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here.
 
 You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, but right now Hugo doesn't know how to use it (everything will be higlighted in Monokai). When Hugo implements this feature, I will also add it to Lanyon-Hugo. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting).
 
