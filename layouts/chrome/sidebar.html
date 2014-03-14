@@ -10,6 +10,7 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item {{ if eq .Url "/" }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .Url "post" }} active {{ end }}" href="/post">Posts</a>
 
     {{ $thisperma := .Permalink }}
     {{ range .Site.Recent.ByWeight }}

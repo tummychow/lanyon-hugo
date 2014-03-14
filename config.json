@@ -16,6 +16,7 @@
         "Title": "Lanyon",
         "Tagline": "A Jekyll theme",
         "Author": "Mark Otto",
+        "DateForm": "Jan 2 2006",
         "Github": {
             "Url": "http://github.com/tummychow/lanyon-hugo",
             "Head": "master"

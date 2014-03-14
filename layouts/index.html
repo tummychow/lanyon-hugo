@@ -7,10 +7,28 @@
     {{ if eq .Type "post"}}
       <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <span class="post-date">{{ .Date.Format "Jan 2 2006" }}</span>
+        <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
         {{ .Content }}
       </div>
     {{ end }}
+  {{ end }}
+</div>
+
+<div class="pagination">
+  {{ if false }}
+    <a class="pagination-item older" href="/page2">Older</a>
+  {{ else }}
+    <span class="pagination-item older">Older</span>
+  {{ end }}
+
+  {{ if false }}
+    {{ if false }}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {{ else }}
+      <a class="pagination-item newer" href="/page1">Newer</a>
+    {{ end }}
+  {{ else }}
+    <span class="pagination-item newer">Newer</span>
   {{ end }}
 </div>
 

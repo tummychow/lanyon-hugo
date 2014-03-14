@@ -2,8 +2,11 @@
 
 <div class="post">
   <h1 class="post-title">{{ .Title }}</h1>
-  <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
-  {{ .Content }}
+  <ul id="list">
+      {{ range .Data.Pages }}
+        {{ .Render "li"}}
+      {{ end }}
+  </ul>
 </div>
 
 {{ template "chrome/default_foot.html" . }}

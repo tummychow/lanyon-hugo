@@ -28,6 +28,8 @@ Sidebar content is ordered by weight, specified in the front matter. The lowest 
 
 Note for Jekyll users: In the original Lanyon, any content that had the `page` layout would be added to the sidebar. However, in Lanyon-Hugo, content with the `fixed` type will not be added to the sidebar automatically. You must specify the `sidebar` flag in the front matter.
 
+Lanyon-Hugo generates a post list at `/post/`. By default, Lanyon doesn't actually have a post list, so there is no link for it anywhere in the theme. In my opinion, there are two sensible places to put it: in between the pagination buttons, and on the sidebar. You could conceivably do both. I've added a sidebar entry for it. If you want to add a button between the pagination buttons, take a look at my Lanyon fork; it has an example of how to do such a thing.
+
 ### Look and Feel
 
 The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here.
@@ -37,8 +39,7 @@ You can use syntax highlighting, if you have [Pygments](http://pygments.org/). S
 ## To Do
 
 While Lanyon-Hugo is aiming for functional compatibility with Lanyon (ie all the old functionality is available and looks similar), there are still some things I'm missing:
-- pagination. Lanyon-Hugo does not have next/previous buttons. Jekyll's pagination feature is quite good, but Hugo's pagination is still on the roadmap for now. I may implement a hackish solution in the meantime, but ideally I'd rather wait until Hugo has a solid solution for this problem.
-- post lists. Lanyon didn't have a feature for listing posts (my fork of Lanyon implemented one). Hugo has a feature called indexes, which can probably provide this functionality. I intend to make use of it.
+- pagination. Lanyon-Hugo does not have next/previous buttons (well they're there, but as you can see, they don't have any links). Jekyll's pagination feature is quite good, but Hugo's pagination is still on the roadmap for now. I may implement a hackish solution in the meantime, but ideally I'd rather wait until Hugo has a solid solution for this problem.
 
 ## Contributing
 
