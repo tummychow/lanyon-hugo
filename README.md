@@ -22,7 +22,9 @@ You can alter the content of the custom 404 via [`fixed/404.md`](content/fixed/4
 
 ### Sidebar Links
 
-To indicate that a given piece of content should be linked in the sidebar, add a key `sidebar` to the front matter, and set it to `true`. See [`about.md`](content/fixed/about.md) for an example of this. Sidebar links currently appear in an arbitrary order; this will be improved in the future. You can pin content to the sidebar regardless of whether it is a post, or if it is fixed.
+To indicate that a given piece of content should be linked in the sidebar, add a key `sidebar` to the front matter, and set it to `true`. See [`about.md`](content/fixed/about.md) for an example of this. You can pin content to the sidebar regardless of whether it is a post, or if it is fixed.
+
+Sidebar content is ordered by weight, specified in the front matter. The lowest weight goes to the top and the greatest weight goes to the bottom. I've included an extra example file, [`altab.md`](content/fixed/altab.md), to demonstrate this feature. If no weight is specified in the front matter, then the weight is zero (this behavior probably comes from the zero-value of integers in Go). You can set negative weights to exploit this feature. Note that the weight must be wrapped in quotes (ie a string). Looks like Hugo converts it to an integer internally.
 
 Note for Jekyll users: In the original Lanyon, any content that had the `page` layout would be added to the sidebar. However, in Lanyon-Hugo, content with the `fixed` type will not be added to the sidebar automatically. You must specify the `sidebar` flag in the front matter.
 

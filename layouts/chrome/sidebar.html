@@ -12,7 +12,7 @@
     <a class="sidebar-nav-item {{ if eq .Url "/" }} active {{ end }}" href="/">Home</a>
 
     {{ $thisperma := .Permalink }}
-    {{ range .Site.Recent }}
+    {{ range .Site.Recent.ByWeight }}
       {{ if isset .Params "sidebar" }}
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end }}
