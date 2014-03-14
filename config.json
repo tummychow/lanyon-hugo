@@ -8,8 +8,8 @@
     "baseurl": "http://tummychow.github.io/lanyon-hugo/",
     "canonifyurls": true,
     "permalinks": {
-        "post": "/:year/:month/:day/:title/",
-        "fixed": "/:title/"
+        "post": ":year/:month/:day/:title/",
+        "fixed": ":title/"
     },
 
     "params": {
