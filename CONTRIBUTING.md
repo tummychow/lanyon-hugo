@@ -1,0 +1,34 @@
+# Contributing
+
+So you want to help me with Lanyon-Hugo? **AWESOME**!
+
+I'm not a designer, nor do I know CSS or HTML. Most of those things are coming straight out of the original Lanyon. However, the parts that make it work with Hugo, those are mine. And if you're interested, what's mine is yours. I'll explain what has changed from the original Lanyon, if you were familiar with that theme already. And I'll explain the structure of this Hugo theme, assuming you already understand some of how Hugo works.
+
+Hugo's docs are a bit lacking in the "big picture" of how things fit together (I might submit a PR when I'm more familiar with the tool), but they're quite complete. I recommend you read them first.
+
+## Layouts
+Lanyon-Hugo uses two content types, `fixed` and `post`. These are analogous to Lanyon's `page` and `post` layouts, respectively. Right now, I only have single views for these content types. I will probably add a list view for `post` in the future.
+
+The two types are quite similar. In fact, the only difference is that `post` shows a date, where as `fixed` does not. [This](http://golang.org/pkg/time/#Time.Format) documentation explains how to change the date formatting.
+
+Both content types call out to a set of general HTML files which provide the universal bits and pieces. These are stored in `layouts/chrome`, which is a Hugo convention, and they are analogous to Lanyon's `_includes`.
+
+In Jekyll, you can nest layouts. Lanyon's `page` and `post` layouts are both based on a `default` layout. The `default` layout is the one that provides things like the header and the sidebar. But Hugo doesn't have this functionality, so I took the `default` layout, and I split it into two files: `default_head.html` and `default_foot.html`. These two are meant to be included at the top and bottom, respectively, of any other content views. You can see this in `fixed/single.html` and `post/single.html`.
+
+## Sidebar
+The most interesting layout is probably `layouts/chrome/sidebar.html`. This is mostly based on Lanyon's `_includes/sidebar.html`, but ported to Go templates instead of Liquid. We identify the homepage via `.Url`. Any pages whose front matter sets the `sidebar` flag are also added to the sidebar. We match the active page (if any) using its `.Permalink`. The sidebar also retains the GitHub integration from the original Lanyon, where it lists a repository of your choice.
+
+## Homepage
+Hugo implements homepages as a special layout, which does not correspond to any content type. This gets generated into a page called a node. You can see this in `layouts/index.html`. If you want to change the number of posts listed on the homepage, just change the `pagination` variable. One inconvenience of Hugo's system is that you can't include front matter for nodes (as far as I know).
+
+The index implements a full view of each item whose content type is `post`. This is quite repetitive and overlaps heavily with `post/single.html`. I plan to add a `post/summary.html` in the future, which does not include the default header and footer, and which sets the post title to a link. Then, I can replace this with `{{ .Render "summary" }}` to reduce code repetition.
+
+You may notice that the pagination buttons from the original Lanyon are conspicuously missing. Jekyll has a pagination feature which generates extra HTML in the output site, so that you can go through pages of past posts easily. This isn't available in Hugo yet. Hugo provides indexes, which can list stuff, but breaking those lists into paginated pieces is another matter. I am probably going to wait until Hugo provides support for this feature. Then I'll add the pagination buttons back.
+
+## Statics
+Jekyll will take every file in its source directory and mirror it in the destination, unless the file's name begins with an underscore. Hugo is not quite so inclusive. The contents of the `static` directory are mirrored into the root of the destination exactly as they are. This is where the Lanyon/Poole CSS files are placed. I have not changed those files at all (literally nothing).
+
+If your GitHub Page has a custom name, the `CNAME` file should go in this directory.
+
+## Custom 404
+The custom 404 is implemented as a fixed page, but where the `sidebar` flag is not set. It's aliased to `404.html`. If you use the `url` front matter key, it will be prettified, so if you set `"url": "/404.html"`, then you end up with `404/index.html` in your generated site instead of `404.html`. Aliases are explicit, so I guess it gets around that problem. It feels like a hack to me, but it seems to work.

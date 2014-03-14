@@ -1,0 +1,24 @@
+{
+    "contentdir": "content",
+    "layoutdir": "layouts",
+    "publishdir": "public",
+
+    "builddrafts": false,
+
+    "baseurl": "http://tummychow.github.io/lanyon-hugo/",
+    "canonifyurls": true,
+    "permalinks": {
+        "post": "/:year/:month/:day/:title/",
+        "fixed": "/:title/"
+    },
+
+    "params": {
+        "Title": "Lanyon",
+        "Tagline": "A Jekyll theme",
+        "Author": "Mark Otto",
+        "Github": {
+            "Url": "http://github.com/tummychow/lanyon-hugo",
+            "Head": "master"
+        }
+    }
+}
