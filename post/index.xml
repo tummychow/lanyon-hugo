@@ -12,10 +12,10 @@
       
         <item>
           <title>Introducing Lanyon</title>
-          <link>http://tummychow.github.io/2014/01/02/introducing-lanyon/</link>
+          <link>http://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</link>
           <pubDate>Thu, 02 Jan 2014 00:00:00 UTC</pubDate>
           <author>Mark Otto</author>
-          <guid>http://tummychow.github.io/2014/01/02/introducing-lanyon/</guid>
+          <guid>http://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</guid>
           <description>
 
 &lt;p&gt;Lanyon is an unassuming &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It&amp;rsquo;s based on &lt;a href=&#34;http://getpoole.com&#34;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
@@ -62,10 +62,10 @@
       
         <item>
           <title>What&#39;s Jekyll?</title>
-          <link>http://tummychow.github.io/2013/12/31/whats-jekyll/</link>
+          <link>http://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</link>
           <pubDate>Tue, 31 Dec 2013 00:00:00 UTC</pubDate>
           <author>Mark Otto</author>
-          <guid>http://tummychow.github.io/2013/12/31/whats-jekyll/</guid>
+          <guid>http://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&#34;https://github.com/mojombo/jekyll/blob/master/README.markdown&#34;&gt;the project&amp;rsquo;s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
