@@ -46,4 +46,4 @@ While Lanyon-Hugo is aiming for functional compatibility with Lanyon (ie all the
 If you're interested in hacking on this theme, please check out [CONTRIBUTING](CONTRIBUTING.md).
 
 ## License
-None for now. Not a big priority for me. But it'll probably be MIT.
+MIT, see [LICENSE.md](LICENSE.md).
