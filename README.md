@@ -36,6 +36,26 @@ The CSS from the original Lanyon is unchanged, and you can find it in [`static/c
 
 You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, but right now Hugo doesn't know how to use it (everything will be higlighted in Monokai). When Hugo implements this feature, I will also add it to Lanyon-Hugo. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting).
 
+### Themes
+
+Lanyon ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+
+![Lanyon with red theme](https://f.cloud.github.com/assets/98681/1825270/be065110-71b0-11e3-9ed8-9b8de753a4af.png)
+![Lanyon with red theme and open sidebar](https://f.cloud.github.com/assets/98681/1825269/be05ec20-71b0-11e3-91ea-a9138ef07186.png)
+
+There are eight themes available at this time.
+
+![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
+
+To use a theme, add any one of the available theme classes to the `<body>` element in the `layouts/partials/default_head.html` layout, like so:
+
+```html
+<body class="theme-base-08">
+  ...
+```
+
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/tummychow/lanyon-hugo/blob/master/static/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+
 ## To Do
 
 While Lanyon-Hugo is aiming for functional compatibility with Lanyon (ie all the old functionality is available and looks similar), there are still some things I'm missing:
