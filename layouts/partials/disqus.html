@@ -1,0 +1,26 @@
+<aside id=comments>
+    <div><h2>Comments</h2></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+
+    (function() {
+        // Don't ever inject disqus on localhost--it creates unwanted 
+        // discussions from 'localhost:1313' on your disqus account...
+        if (window.location.hostname == "localhost") {
+            return;
+        }
+
+        var disqus_shortname = '{{ .Site.Params.disqusShortname }}';
+        var disqus_identifier = '{{if isset .Params "disqus_identifier" }}{{ index .Params "disqus_identifier" }}{{ else }}{{ .Permalink }}{{end}}';
+        var disqus_title = '{{if isset .Params "disqus_title" }}{{ index .Params "disqus_title" }}{{ else }}{{ .Title }}{{end}}';
+        var disqus_url = '{{if isset .Params "disqus_url" }}{{ index .Params "disqus_url" | html  }}{{ else }}{{ .Permalink }}{{end}}';
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</aside>
