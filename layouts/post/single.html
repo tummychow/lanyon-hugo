@@ -1,0 +1,10 @@
+{{ partial "default_head.html" . }}
+
+<div class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+  {{ .Content }}
+</div>
+{{ partial "disqus.html" . }}
+
+{{ partial "default_foot.html" . }}
