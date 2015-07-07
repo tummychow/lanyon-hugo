@@ -9,18 +9,18 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item {{ if eq .Url "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .Url "post" }} active {{ end }}" href="/post">Posts</a>
+    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .URL "post" }} active {{ end }}" href="/post">Posts</a>
 
     {{ $thisperma := .Permalink }}
-    {{ range .Site.Recent.ByWeight }}
+    {{ range .Site.Pages.ByWeight }}
       {{ if isset .Params "sidebar" }}
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end }}
     {{ end }}
 
-    <a class="sidebar-nav-item" href="{{ .Site.Params.Github.Url }}/archive/{{ .Site.Params.Github.Head }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ .Site.Params.Github.Url }}">GitHub project</a>
+    <a class="sidebar-nav-item" href="{{ .Site.Params.Github.URL }}/archive/{{ .Site.Params.Github.Head }}.zip">Download</a>
+    <a class="sidebar-nav-item" href="{{ .Site.Params.Github.URL }}">GitHub project</a>
     <span class="sidebar-nav-item">Currently on {{ .Site.Params.Github.Head }}</span>
   </nav>
 
