@@ -1,35 +1,20 @@
 {{ partial "default_head.html" . }}
 
-{{ $pagination := 5 }}
+<!-- Space delimited list of page types -->
+{{ $paginator := .Paginate (where .Data.Pages "Type" "in" "post") }}
 
 <div class="posts">
-  {{ range first $pagination .Data.Pages }}
-    {{ if eq .Type "post"}}
-      <div class="post">
+  {{ range .Paginator.Pages }}
+    <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
         {{ .Content }}
-      </div>
-    {{ end }}
+    </div>
   {{ end }}
 </div>
 
 <div class="pagination">
-  {{ if false }}
-    <a class="pagination-item older" href="/page2">Older</a>
-  {{ else }}
-    <span class="pagination-item older">Older</span>
-  {{ end }}
-
-  {{ if false }}
-    {{ if false }}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {{ else }}
-      <a class="pagination-item newer" href="/page1">Newer</a>
-    {{ end }}
-  {{ else }}
-    <span class="pagination-item newer">Newer</span>
-  {{ end }}
+    {{ template "_internal/pagination.html" . }}
 </div>
 
 {{ partial "default_foot.html" . }}
