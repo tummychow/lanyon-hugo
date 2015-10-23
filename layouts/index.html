@@ -14,7 +14,17 @@
 </div>
 
 <div class="pagination">
-    {{ template "_internal/pagination.html" . }}
+  {{ if $paginator.HasNext }}
+  <a class="pagination-item older" href="{{ $paginator.Next.URL }}">Older</a>
+  {{ else }}
+  <span class="pagination-item older">Older</span>
+  {{ end }}
+
+  {{ if $paginator.HasPrev }}
+  <a class="pagination-item newer" href="{{ $paginator.Prev.URL }}">Newer</a>
+  {{ else }}
+  <span class="pagination-item newer">Newer</span>
+  {{ end }}
 </div>
 
 {{ partial "default_foot.html" . }}
