@@ -36,11 +36,6 @@ The CSS from the original Lanyon is unchanged, and you can find it in [`static/c
 
 You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, but right now Hugo doesn't know how to use it (everything will be higlighted in Monokai). When Hugo implements this feature, I will also add it to Lanyon-Hugo. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting).
 
-## To Do
-
-While Lanyon-Hugo is aiming for functional compatibility with Lanyon (ie all the old functionality is available and looks similar), there are still some things I'm missing:
-- pagination. Lanyon-Hugo does not have next/previous buttons (well they're there, but as you can see, they don't have any links). Jekyll's pagination feature is quite good, but Hugo's pagination is still on the roadmap for now. I may implement a hackish solution in the meantime, but ideally I'd rather wait until Hugo has a solid solution for this problem.
-
 ## Contributing
 
 If you're interested in hacking on this theme, please check out [CONTRIBUTING](CONTRIBUTING.md).
