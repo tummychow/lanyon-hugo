@@ -25,8 +25,6 @@ Hugo implements homepages as a special layout, which does not correspond to any 
 
 The index implements a full view of each item whose content type is `post`. This is quite repetitive and overlaps heavily with `post/single.html`. I plan to add a `post/summary.html` in the future, which does not include the default header and footer, and which sets the post title to a link. Then, I can replace this with `{{ .Render "summary" }}` to reduce code repetition.
 
-You may notice that the pagination buttons from the original Lanyon are conspicuously missing. Jekyll has a pagination feature which generates extra HTML in the output site, so that you can go through pages of past posts easily. This isn't available in Hugo yet. Hugo provides indexes, which can list stuff, but breaking those lists into paginated pieces is another matter. I am probably going to wait until Hugo provides support for this feature. Then I'll add the pagination buttons back.
-
 ## Post List
 The post list is implemented using a Hugo section index, which can list pages under a certain content type (in this case, the `post` type). This index is defined at `layouts/indexes/post.html`. It renders posts using the `layouts/post/li.html` view, which just shows the post's time and date as a list item. Hugo indexes are also nodes, like the homepage (a node is any page in the output, that doesn't have a content type).
 
@@ -34,6 +32,3 @@ The post list is implemented using a Hugo section index, which can list pages un
 Jekyll will take every file in its source directory and mirror it in the destination, unless the file's name begins with an underscore. Hugo is not quite so inclusive. The contents of the `static` directory are mirrored into the root of the destination exactly as they are. This is where the Lanyon/Poole CSS files are placed. I have not changed those files at all (literally nothing).
 
 If your GitHub Page has a custom name, the `CNAME` file should go in this directory.
-
-## Custom 404
-The custom 404 is implemented as a fixed page, but where the `sidebar` flag is not set. It's aliased to `404.html`. If you use the `url` front matter key, it will be prettified, so if you set `"url": "/404.html"`, then you end up with `404/index.html` in your generated site instead of `404.html`. Aliases are explicit, so I guess it gets around that problem. It feels like a hack to me, but it seems to work.
