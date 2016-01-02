@@ -12,6 +12,8 @@
         "fixed": ":title/"
     },
 
+    "pygmentsuseclasses": true,
+
     "params": {
         "Title": "Lanyon",
         "Tagline": "A Jekyll theme",
