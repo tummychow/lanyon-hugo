@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> </title>
-    <link>http://tummychow.github.io/lanyon-hugo/post/index.xml</link>
+    <link>http://tummychow.github.io/lanyon-hugo/post/</link>
     <language>en-us</language>
     <author>Mark Otto</author>
     <rights>(C) 2014</rights>
@@ -20,12 +20,12 @@
 
 &lt;p&gt;Lanyon is an unassuming &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It&amp;rsquo;s based on &lt;a href=&#34;http://getpoole.com&#34;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;Built on Poole&lt;/h3&gt;
+&lt;h3 id=&#34;built-on-poole:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Built on Poole&lt;/h3&gt;
 
 &lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&#34;https://twitter.com/mdo&#34;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Lanyon here) includes the following:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&#34;/404&#34;&gt;404&lt;/a&gt;, &lt;a href=&#34;/index.xml&#34;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&#34;/about&#34;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&#34;http://tummychow.github.io/lanyon-hugo/404&#34;&gt;404&lt;/a&gt;, &lt;a href=&#34;http://tummychow.github.io/lanyon-hugo/index.xml&#34;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&#34;http://tummychow.github.io/lanyon-hugo/about&#34;&gt;example page&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
 &lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
 &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
@@ -33,7 +33,7 @@
 &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;toc_1&#34;&gt;Lanyon features&lt;/h3&gt;
+&lt;h3 id=&#34;lanyon-features:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Lanyon features&lt;/h3&gt;
 
 &lt;p&gt;In addition to the features of Poole, Lanyon adds the following:&lt;/p&gt;
 
@@ -46,11 +46,11 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/poole/lanyon#readme&#34;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_2&#34;&gt;Browser support&lt;/h3&gt;
+&lt;h3 id=&#34;browser-support:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Browser support&lt;/h3&gt;
 
 &lt;p&gt;Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_3&#34;&gt;Download&lt;/h3&gt;
+&lt;h3 id=&#34;download:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Download&lt;/h3&gt;
 
 &lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&#34;https://github.com/poole/lanyon&#34;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
@@ -80,7 +80,7 @@
 
 &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_0&#34;&gt;Inline HTML elements&lt;/h2&gt;
+&lt;h2 id=&#34;inline-html-elements:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Inline HTML elements&lt;/h2&gt;
 
 &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
 
@@ -95,27 +95,28 @@
 
 &lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_1&#34;&gt;Heading&lt;/h2&gt;
+&lt;h2 id=&#34;heading:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Heading&lt;/h2&gt;
 
 &lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_2&#34;&gt;Code&lt;/h3&gt;
+&lt;h3 id=&#34;code:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Code&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #75715e&#34;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
 
-&lt;span style=&#34;color: #75715e&#34;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
-&lt;span style=&#34;color: #66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;adder&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;Function(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 
-&lt;span style=&#34;color: #75715e&#34;&gt;// Call the function&lt;/span&gt;
-&lt;span style=&#34;color: #a6e22e&#34;&gt;adder&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;6&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;);&lt;/span&gt;
-&lt;span style=&#34;color: #75715e&#34;&gt;// &amp;gt; 8&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&#34;c1&#34;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// &amp;gt; 8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_3&#34;&gt;Lists&lt;/h3&gt;
+&lt;h3 id=&#34;lists:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Lists&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
 
@@ -148,7 +149,7 @@
 
 &lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
 
-&lt;h3 id=&#34;toc_4&#34;&gt;Tables&lt;/h3&gt;
+&lt;h3 id=&#34;tables:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Tables&lt;/h3&gt;
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 

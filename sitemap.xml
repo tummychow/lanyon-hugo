@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://tummychow.github.io/lanyon-hugo/</loc>
+    <lastmod>2014-01-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</loc>
+    <lastmod>2014-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tummychow.github.io/lanyon-hugo/2014/01/01/example-content/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</loc>
+    <lastmod>2013-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tummychow.github.io/lanyon-hugo/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tummychow.github.io/lanyon-hugo/another-fixed-page/</loc>
+  </url>
+  
+</urlset>
