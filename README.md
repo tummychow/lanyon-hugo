@@ -30,7 +30,7 @@ Lanyon-Hugo generates a post list at `/post/`. By default, Lanyon doesn't actual
 
 ### Look and Feel
 
-The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here.
+The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here. You can find these tweaks in the [upstream README](https://github.com/poole/lanyon#themes).
 
 You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, which this theme will use. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting). You can also generate CSS for other pygments themes like so:
 
