@@ -8,7 +8,8 @@
     <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
-        {{ .Content }}
+        <p>{{ .Summary }}</p>
+        <p><a href="{{ .Permalink }}" >Read more</a></p>
     </div>
   {{ end }}
 </div>
