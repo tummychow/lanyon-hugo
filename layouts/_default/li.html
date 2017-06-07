@@ -1,1 +1,1 @@
-<li>{{ .Date.Format .Site.Params.DateForm }} - <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+<li>{{ .Site.Params.DateForm | default "Jan 2, 2006" |  .Date.Format }} - <a href="{{ .Permalink }}">{{ .Title }}</a></li>

@@ -7,7 +7,7 @@
   {{ range .Paginator.Pages }}
     <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+        <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
         {{ .Content }}
     </div>
   {{ end }}
