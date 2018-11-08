@@ -12,12 +12,12 @@
     <a class="sidebar-nav-item {{ if .IsHome }} active {{ end }}" href="/">Home</a>
     <a class="sidebar-nav-item {{ if eq .RelPermalink "/post/" }} active {{ end }}" href="/post">Posts</a>
 
-    {{ $thisperma := .Permalink }}
-    {{ range .Site.Pages.ByWeight }}
-      {{ if isset .Params "sidebar" }}
+    {{- $thisperma := .Permalink }}
+    {{ range .Site.Pages.ByWeight -}}
+      {{ if isset .Params "sidebar" -}}
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
-      {{ end }}
-    {{ end }}
+      {{ end -}}
+    {{ end -}}
 
     <a class="sidebar-nav-item" href="{{ .Site.Params.Github.Url }}/archive/{{ .Site.Params.Github.Head }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ .Site.Params.Github.Url }}">GitHub project</a>
