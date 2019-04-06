@@ -5,7 +5,7 @@
 
     "builddrafts": false,
 
-    "baseurl": "http://tummychow.github.io/lanyon-hugo/",
+    "baseurl": "https://tummychow.github.io/lanyon-hugo/",
     "canonifyurls": true,
     "permalinks": {
         "post": ":year/:month/:day/:title/",
