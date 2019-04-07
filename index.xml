@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> </title>
-    <link>http://tummychow.github.io/lanyon-hugo/</link>
+    <link>https://tummychow.github.io/lanyon-hugo/</link>
     <language>en-us</language>
     <author>Mark Otto</author>
     <rights>(C) 2014</rights>
@@ -10,22 +10,26 @@
 
     
       
+    
+      
+    
+      
         <item>
           <title>Introducing Lanyon</title>
-          <link>http://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</link>
+          <link>https://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</link>
           <pubDate>Thu, 02 Jan 2014 00:00:00 UTC</pubDate>
           <author>Mark Otto</author>
-          <guid>http://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</guid>
+          <guid>https://tummychow.github.io/lanyon-hugo/2014/01/02/introducing-lanyon/</guid>
           <description>
 
 &lt;p&gt;Lanyon is an unassuming &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It&amp;rsquo;s based on &lt;a href=&#34;http://getpoole.com&#34;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
-&lt;h3 id=&#34;built-on-poole:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Built on Poole&lt;/h3&gt;
+&lt;h3 id=&#34;built-on-poole&#34;&gt;Built on Poole&lt;/h3&gt;
 
 &lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&#34;https://twitter.com/mdo&#34;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Lanyon here) includes the following:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&#34;http://tummychow.github.io/lanyon-hugo/404&#34;&gt;404&lt;/a&gt;, &lt;a href=&#34;http://tummychow.github.io/lanyon-hugo/index.xml&#34;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&#34;http://tummychow.github.io/lanyon-hugo/about&#34;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&#34;https://tummychow.github.io/lanyon-hugo/404&#34;&gt;404&lt;/a&gt;, &lt;a href=&#34;https://tummychow.github.io/lanyon-hugo/index.xml&#34;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&#34;https://tummychow.github.io/lanyon-hugo/about&#34;&gt;example page&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
 &lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
 &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
@@ -33,7 +37,7 @@
 &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;lanyon-features:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Lanyon features&lt;/h3&gt;
+&lt;h3 id=&#34;lanyon-features&#34;&gt;Lanyon features&lt;/h3&gt;
 
 &lt;p&gt;In addition to the features of Poole, Lanyon adds the following:&lt;/p&gt;
 
@@ -46,11 +50,11 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/poole/lanyon#readme&#34;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
-&lt;h3 id=&#34;browser-support:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Browser support&lt;/h3&gt;
+&lt;h3 id=&#34;browser-support&#34;&gt;Browser support&lt;/h3&gt;
 
 &lt;p&gt;Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
 
-&lt;h3 id=&#34;download:3fbbb50789f1ac58c0e5da0cc6426f3f&#34;&gt;Download&lt;/h3&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
 
 &lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&#34;https://github.com/poole/lanyon&#34;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
@@ -62,10 +66,10 @@
       
         <item>
           <title>Example content</title>
-          <link>http://tummychow.github.io/lanyon-hugo/2014/01/01/example-content/</link>
+          <link>https://tummychow.github.io/lanyon-hugo/2014/01/01/example-content/</link>
           <pubDate>Wed, 01 Jan 2014 00:00:00 UTC</pubDate>
           <author>Mark Otto</author>
-          <guid>http://tummychow.github.io/lanyon-hugo/2014/01/01/example-content/</guid>
+          <guid>https://tummychow.github.io/lanyon-hugo/2014/01/01/example-content/</guid>
           <description>
 
 &lt;div class=&#34;message&#34;&gt;
@@ -80,7 +84,7 @@
 
 &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
-&lt;h2 id=&#34;inline-html-elements:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Inline HTML elements&lt;/h2&gt;
+&lt;h2 id=&#34;inline-html-elements&#34;&gt;Inline HTML elements&lt;/h2&gt;
 
 &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
 
@@ -95,28 +99,27 @@
 
 &lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
 
-&lt;h2 id=&#34;heading:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Heading&lt;/h2&gt;
+&lt;h2 id=&#34;heading&#34;&gt;Heading&lt;/h2&gt;
 
 &lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
 
-&lt;h3 id=&#34;code:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Code&lt;/h3&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Example can be run directly in your JavaScript console
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// Create a function that takes two arguments and returns the sum of those arguments
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;a&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;b&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;return a + b&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 
-&lt;span class=&#34;c1&#34;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
-&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-
-&lt;span class=&#34;c1&#34;&gt;// Call the function&lt;/span&gt;
-&lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;// &amp;gt; 8&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
+&lt;span class=&#34;c1&#34;&gt;// Call the function
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// &amp;gt; 8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
 
-&lt;h3 id=&#34;lists:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Lists&lt;/h3&gt;
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
 
@@ -149,7 +152,7 @@
 
 &lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
 
-&lt;h3 id=&#34;tables:359d948725c4841afd7b76bfdf6a18a3&#34;&gt;Tables&lt;/h3&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 
@@ -199,10 +202,10 @@
       
         <item>
           <title>What&#39;s Jekyll?</title>
-          <link>http://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</link>
+          <link>https://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</link>
           <pubDate>Tue, 31 Dec 2013 00:00:00 UTC</pubDate>
           <author>Mark Otto</author>
-          <guid>http://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</guid>
+          <guid>https://tummychow.github.io/lanyon-hugo/2013/12/31/whats-jekyll/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&#34;https://github.com/mojombo/jekyll/blob/master/README.markdown&#34;&gt;the project&amp;rsquo;s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -214,10 +217,6 @@
 &lt;p&gt;Find out more by &lt;a href=&#34;https://github.com/mojombo/jekyll&#34;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
-      
-    
-      
-    
       
     
 

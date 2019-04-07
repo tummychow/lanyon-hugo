@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> </title>
-    <link>http://tummychow.github.io/lanyon-hugo/fixed/</link>
-    <language>en-us</language>
-    <author>Mark Otto</author>
-    <rights>(C) 2014</rights>
-    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
-
+    <title>Fixeds on </title>
+    <link>https://tummychow.github.io/lanyon-hugo/fixed/</link>
+    <description>Recent content in Fixeds on </description>
+    <generator>Hugo -- gohugo.io</generator>
     
+	<atom:link href="https://tummychow.github.io/lanyon-hugo/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://tummychow.github.io/lanyon-hugo/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
+      <guid>https://tummychow.github.io/lanyon-hugo/about/</guid>
+      <description>Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on! In the novel, The Strange Case of Dr. Jeykll and Mr. Hyde, Mr. Poole is Dr. Jekyll&amp;rsquo;s virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It&amp;rsquo;s made by @mdo.
+There are currently two themes built on Poole:</description>
+    </item>
     
+    <item>
+      <title>Another Fixed Page</title>
+      <link>https://tummychow.github.io/lanyon-hugo/another-fixed-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
+      <guid>https://tummychow.github.io/lanyon-hugo/another-fixed-page/</guid>
+      <description>This is just another example of a fixed page, to demonstrate ordered elements in the sidebar.</description>
+    </item>
     
-
   </channel>
 </rss>
