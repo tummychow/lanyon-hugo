@@ -12,6 +12,17 @@
         "fixed": ":title/"
     },
 
+    "markup": {
+        "goldmark": {
+            "extensions": {
+                "typographer": true
+            },
+            "renderer": {
+                "unsafe": true
+            }
+        }
+    },
+
     "pygmentsuseclasses": true,
 
     "params": {
