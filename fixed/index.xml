@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tummychow.github.io/lanyon-hugo/about/</guid>
-      <description>Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on! In the novel, The Strange Case of Dr. Jeykll and Mr. Hyde, Mr. Poole is Dr. Jekyll&#39;s virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It&#39;s made by @mdo.
+      <description>Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on! In the novel, The Strange Case of Dr. Jeykll and Mr. Hyde, Mr. Poole is Dr. Jekyll&amp;rsquo;s virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It&amp;rsquo;s made by @mdo.
 There are currently two themes built on Poole:
  Hyde Lanyon  Learn more and contribute on GitHub.</description>
     </item>
@@ -27,6 +27,15 @@ There are currently two themes built on Poole:
       
       <guid>https://tummychow.github.io/lanyon-hugo/another-fixed-page/</guid>
       <description>This is just another example of a fixed page, to demonstrate ordered elements in the sidebar.</description>
+    </item>
+    
+    <item>
+      <title>A Menu Page Using Hugo Menu Templates</title>
+      <link>https://tummychow.github.io/lanyon-hugo/a-menu-page-using-hugo-menu-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tummychow.github.io/lanyon-hugo/a-menu-page-using-hugo-menu-templates/</guid>
+      <description>This is example of a page from site menu. Pages from &amp;lsquo;main&amp;rsquo; menu appear just above the fixed pages from sidebar. Checkout official documentation about Menu Templates.</description>
     </item>
     
   </channel>
