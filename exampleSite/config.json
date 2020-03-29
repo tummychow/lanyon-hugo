@@ -25,11 +25,26 @@
 
     "pygmentsuseclasses": true,
 
+    "menu": {
+        "main": [
+            {
+                "identifier": "categories",
+                "name": "Categories Section from Menu",
+                "title": "Categories section",
+                "url": "/categories/",
+                "weight": -110
+            }
+        ]
+    },
+
     "params": {
         "Title": "Lanyon",
         "Tagline": "A Jekyll theme",
         "Author": "Mark Otto",
         "DateForm": "Jan 2 2006",
+        "mainSections": [
+            "post"
+        ],
         "Github": {
             "Url": "http://github.com/tummychow/lanyon-hugo",
             "Head": "master"
