@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="/css/syntax.css">
   <link rel="stylesheet" href="/css/lanyon.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  {{- range .Site.Params.customCSS }}
+  <link rel="stylesheet" href="{{ . | relURL }}">
+  {{- end }}
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
