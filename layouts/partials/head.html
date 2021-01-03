@@ -16,7 +16,9 @@
   <link rel="stylesheet" href="/css/poole.css">
   <link rel="stylesheet" href="/css/syntax.css">
   <link rel="stylesheet" href="/css/lanyon.css">
+  {{- if not .Site.Params.disableFonts }}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  {{- end }}
   {{- range .Site.Params.customCSS }}
   <link rel="stylesheet" href="{{ . | relURL }}">
   {{- end }}
