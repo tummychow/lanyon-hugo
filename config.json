@@ -1,0 +1,54 @@
+{
+    "contentdir": "content",
+    "layoutdir": "layouts",
+    "publishdir": "public",
+
+    "builddrafts": false,
+
+    "baseurl": "https://nazareno.github.io/",
+    "canonifyurls": true,
+    "permalinks": {
+        "post": ":year/:month/:day/:title/",
+        "fixed": ":title/"
+    },
+
+    "markup": {
+        "goldmark": {
+            "extensions": {
+                "typographer": true
+            },
+            "renderer": {
+                "unsafe": true
+            }
+        }
+    },
+
+    "pygmentsuseclasses": true,
+
+    "menu": {
+        "main": [
+            {
+                "identifier": "categories",
+                "name": "Categories Section from Menu",
+                "title": "Categories section",
+                "url": "/categories/",
+                "weight": -110
+            }
+        ]
+    },
+
+    "params": {
+        "Title": "Nazareno Andrade",
+        "Tagline": "",
+        "Author": "Nazareno",
+        "DateForm": "Jan 2 2006",
+        "mainSections": [
+            "post"
+        ],
+        "Github": {
+            "Url": "http://github.com/tummychow/lanyon-hugo",
+            "Head": "master"
+        },
+	"disableFonts": false
+    }
+}
