@@ -9,18 +9,17 @@
       {{- with .Site.Params.description }}
       {{ . | markdownify }}
       {{- else }}
-      I'm a professor at UFCG. 
       {{- end }}
     </p>
   </div>
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item {{ if .IsHome }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .RelPermalink "/post/" }} active {{ end }}" href="/post">Posts</a>
-    {{- $currentPage := . }}
+    <!-- <a class="sidebar-nav-item {{ if eq .RelPermalink "/post/" }} active {{ end }}" href="/post">Posts</a> -->
+    <!-- {{- $currentPage := . }}
     {{- range .Site.Menus.main -}}
     <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-    {{- end -}}
+    {{- end -}} -->
 
     {{- $thisperma := .Permalink }}
     {{ range .Site.Pages.ByWeight -}}
@@ -29,14 +28,5 @@
       {{ end -}}
     {{ end -}}
 
-    {{- with .Site.Params.Github }}
-    <a class="sidebar-nav-item" href="{{ .url }}/archive/{{ .head }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ .url }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently on {{ .head }}</span>
-    {{ end -}}
   </nav>
-
-  <div class="sidebar-item">
-    <p>&copy; {{ .Site.LastChange.Year }}. All rights reserved.</p>
-  </div>
 </div>

@@ -1,16 +1,24 @@
 {{ partial "default_head.html" . }}
 
+{{ with .Site.GetPage "/about" }}
+<div class="page">
+  {{ .Content }}
+</div>
+{{end}}
+
+<!-- <h2>Recent changes</h2> -->
+
 <!-- Space delimited list of page types -->
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+<!-- {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 
 <div class="posts">
-  {{ range .Paginator.Pages }}
-    <div class="post">
-        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <span class="post-date">{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }}</span>
-        {{ .Content }}
-    </div>
-  {{ end }}
+  <ul id="list">
+    {{ range .Paginator.Pages }}
+    <li>{{ .Site.Params.DateForm | default "Jan 2, 2006" | .Date.Format }} -
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
 </div>
 
 <div class="pagination">
@@ -25,6 +33,6 @@
   {{ else }}
   <span class="pagination-item newer">Newer</span>
   {{ end }}
-</div>
+</div> -->
 
 {{ partial "default_foot.html" . }}
